@@ -9,27 +9,56 @@
 
 <div class="page-content">
 
+
+
     <!-- HERO SECTION -->
-    <section class="hero min-h-[60vh] flex items-center bg-cover bg-center bg-no-repeat relative"
-             style="background-image: url('{{ asset('storage/images/pages/home-hero.webp') }}')">
-        <div class="container grid grid-cols-2">
 
-            <div class="backdrop-blur-xs rounded p-12">
-                <div class="flex space-x-2 items-center px-6 pl-0 py-0 border border-gray-800 rounded-full inline-flex">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                         class="w-6 h-6 -rotate-45">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                    </svg>
 
-                    <span>Développement & Accompagnement</span>
-                </div>
-
-                <h1 class="text-[5rem] font-medium">
-                    Création de sites web et Stratégies Digitales
+    <section>
+        <div class="content-w">
+            <div class="text-center">
+                <h1 class="text-4xl font-semibold tracking-tighter text-gray-900 lg:text-5xl text-balance">
+                    Nous créons de sites web ,
+                    <span class="text-gray-600">wherever and anywhere</span>
                 </h1>
+                <p class="w-1/2 mx-auto mt-4 text-base font-medium text-gray-500 text-balance">
+                    The fastest method for working together on staging and temporary
+                    environments.
+                </p>
+                <div class="flex flex-col items-center justify-center gap-2 mx-auto mt-8 md:flex-row">
+                    <button class="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium text-white duration-200 bg-gray-900 md:w-auto rounded-xl hover:bg-gray-700 focus:ring-2 focus:ring-offset-2 focus:ring-black" aria-label="Primary action">
+                        Primary button
+                    </button>
+                    <button class="inline-flex items-center justify-center w-full h-12 gap-3 px-5 py-3 font-medium duration-200 bg-gray-100 md:w-auto rounded-xl hover:bg-gray-200 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" aria-label="Secondary action">
+                        Secondary button
+                    </button>
+                </div>
+                <dl class="grid grid-cols-1 gap-6 mt-24 lg:grid-cols-3 text-balance">
+                    <div>
+                        <dt class="font-medium text-gray-900">No warranty disclaimer</dt>
+                        <dd class="mt-2 text-sm font-medium text-gray-500">
+                            The licensor provides the work "as is," and users must use it at
+                            their own risk.
+                        </dd>
+                    </div>
+                    <div>
+                        <dt class="font-medium text-gray-900">Modification Freedom</dt>
+                        <dd class="mt-2 text-sm text-gray-500">
+                            You can adapt, remix, transform, and build upon the licensed work.
+                        </dd>
+                    </div>
+                    <div>
+                        <dt class="font-medium text-gray-900">Commercial use allowed</dt>
+                        <dd class="mt-2 text-sm text-gray-500">
+                            You are allowed to use the licensed work for both non-commercial and
+                            commercial purposes.
+                        </dd>
+                    </div>
+                </dl>
             </div>
-
         </div>
     </section>
+
+
 
 </div>

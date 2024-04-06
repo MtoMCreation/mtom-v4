@@ -8,6 +8,7 @@ export default {
     theme: {
         container: {
             center: true,
+            md: '1200px',
         },
         extend: {
             backdropBlur: {

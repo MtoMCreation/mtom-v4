@@ -16,7 +16,7 @@ return new class extends Migration
             $table->id();
             $table->enum('status', StatusEnum::values())->default(StatusEnum::Draft->value);
             $table->string('title');
-            $table->text('slug')->unique();
+            $table->string('slug')->unique();
             $table->string('image')->nullable();
             $table->string('meta_title', 60)->nullable();
             $table->string('meta_description', 160)->nullable();
