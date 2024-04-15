@@ -2,7 +2,7 @@
     <div class="container">
         <h1>Page de l'article</h1>
         <div class="mt-10 max-w-[800px] mx-auto">
-            <img src="{{ asset($article->image) }}" alt="">
+            <img src="{{ \Illuminate\Support\Facades\Storage::url($article->image) }}" alt="">
             <h2>{{ $article->title }}</h2>
         </div>
     </div>
