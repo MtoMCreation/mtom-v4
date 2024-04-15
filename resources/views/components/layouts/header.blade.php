@@ -3,7 +3,7 @@
 
         <a href="{{ route('accueil') }}" wire:navigate
            class="logo">
-            <img src="{{ asset('storage/logo-mtom.png') }}"
+            <img src="{{ asset('storage/logo-mtom.webp') }}"
                  alt="logo mtom creation"
                  class="w-[80px]">
         </a>
