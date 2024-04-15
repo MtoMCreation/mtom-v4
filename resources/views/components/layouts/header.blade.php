@@ -5,7 +5,7 @@
            class="logo">
             <img src="{{ asset('storage/logo-mtom.webp') }}"
                  alt="logo mtom creation"
-                 class="w-[80px]">
+                 style="width: 80px; height: 80px;">
         </a>
 
         <nav class="flex items-center space-x-4">
