@@ -16,6 +16,8 @@ class Articles extends Component
     {
         return view('livewire.pages.articles', [
             'articles' => Article::all(),
+//            'firstArticle' => Article::first(),
+//            'otherArticles' => Article::orderBy('created_at', 'desc')->skip(1)->get()
         ]);
     }
 }

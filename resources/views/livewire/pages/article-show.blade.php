@@ -1,4 +1,4 @@
-<div>
+<div class="bg-blue-50">
     <div class="container">
         <h1>Page de l'article</h1>
         <div class="mt-10 max-w-[800px] mx-auto">
