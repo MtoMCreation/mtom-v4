@@ -14,6 +14,9 @@ Création de site web et stratégie digitale
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        <link rel="icon" href="{{ asset('favicon.png') }}">
+
         <meta name="description" content="{{ $description ?? 'Page Description' }}">
 
         <title>{{ $title ?? 'Page Title' }}</title>
