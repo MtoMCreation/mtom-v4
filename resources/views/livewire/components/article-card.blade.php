@@ -1,7 +1,7 @@
 <div class="card">
     <div
         style="
-            height: 200px;
+            height: 330px;
             background-image: url({{ Storage::url($article->image) }});
             background-repeat: no-repeat;
             background-position: center;">
