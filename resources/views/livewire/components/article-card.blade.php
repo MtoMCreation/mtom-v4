@@ -1,7 +1,7 @@
 <div class="card rounded overflow-hidden bg-gray-100">
     <div
-        style="background-image: url({{ Storage::url($article->image) }});"
-        class="h-[300px] bg-no-repeat bg-center bg-cover ">
+        style="background-image: url({{ Storage::url($article->image) }}); background-size: cover; background-position: center; height: 200px;"
+        class="">
     </div>
 
     <h2>{{ $article->title }}</h2>
