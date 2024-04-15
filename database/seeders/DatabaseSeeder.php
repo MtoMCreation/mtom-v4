@@ -22,6 +22,6 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('password')
         ]);
 
-        Article::factory(10)->create();
+//        Article::factory(10)->create();
     }
 }
