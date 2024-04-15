@@ -1,12 +1,10 @@
-<div class="card">
+<div class="card rounded overflow-hidden bg-gray-100">
     <div
-        style="
-            height: 330px;
-            background-image: url({{ Storage::url($article->image) }});
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;">
+        style="background-image: url({{ Storage::url($article->image) }});"
+        class="h-[300px] bg-no-repeat bg-center bg-cover ">
     </div>
 
-    <h2>{{ $article->title }}</h2>
+    <div class="p-6">
+        <h2>{{ $article->title }}</h2>
+    </div>
 </div>
