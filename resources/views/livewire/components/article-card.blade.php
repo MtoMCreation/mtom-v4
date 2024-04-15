@@ -4,7 +4,6 @@
         class="h-[300px] bg-no-repeat bg-center bg-cover ">
     </div>
 
-    <div class="p-6">
-        <h2>{{ $article->title }}</h2>
-    </div>
+    <h2>{{ $article->title }}</h2>
+
 </div>
