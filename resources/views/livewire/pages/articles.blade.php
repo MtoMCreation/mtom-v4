@@ -12,8 +12,13 @@
     </div>
 
     <div class="mt-10">
+        <div>
+            <a href="{{ route('article-show', $firstArticle) }}" wire:navigate>
+                <livewire:components.article-card :article="$firstArticle" :key="$firstArticle->id" lazy/>
+            </a>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            @foreach($articles as $article)
+            @foreach($otherArticles as $article)
                 <a href="{{ route('article-show', $article) }}" wire:navigate>
                     <livewire:components.article-card :article="$article" :key="$article->id" lazy/>
                 </a>

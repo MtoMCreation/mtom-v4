@@ -6,9 +6,10 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        container: {
-            center: true,
-            md: '1200px',
+        colors: {
+            primary: '#1B1917',
+            light: '#FAFAF9',
+            textColor: '#474540',
         },
         extend: {
             backdropBlur: {

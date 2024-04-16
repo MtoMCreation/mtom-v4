@@ -14,10 +14,12 @@ class Articles extends Component
 
     public function render(): \Illuminate\View\View
     {
+        $articles = Article::all();
+
         return view('livewire.pages.articles', [
-            'articles' => Article::all(),
-//            'firstArticle' => Article::first(),
-//            'otherArticles' => Article::orderBy('created_at', 'desc')->skip(1)->get()
+            'articles' => $articles,
+            'firstArticle' => $articles->first(),
+            'otherArticles' => $articles->slice(1),
         ]);
     }
 }
