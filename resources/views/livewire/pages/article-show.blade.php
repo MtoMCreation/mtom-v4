@@ -4,6 +4,10 @@
         <div class="mt-10 max-w-[800px] mx-auto">
             <img src="{{ \Illuminate\Support\Facades\Storage::url($article->image) }}" alt="">
             <h2>{{ $article->title }}</h2>
+
+            <div>
+                <p>{!! $article->content !!}</p>
+            </div>
         </div>
     </div>
 
