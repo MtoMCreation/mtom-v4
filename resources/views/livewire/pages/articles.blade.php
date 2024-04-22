@@ -6,9 +6,6 @@
 <div class="container">
     <div class="py-20 ">
         <h1 class="text-[50px] font-bold text-center">Page des articles</h1>
-        <div>
-            <a href="" class="button px-6 py-2 rounded font-bold bg-teal-200">Start Now</a>
-        </div>
     </div>
 
     <div class="mt-10">

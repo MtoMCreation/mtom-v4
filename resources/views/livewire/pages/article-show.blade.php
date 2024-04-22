@@ -16,7 +16,7 @@
         <div class="grid grid-cols-3 gap-4">
             @foreach($articles as $article)
                 <a href="{{ route('article-show', $article) }}" wire:navigate>
-                    <livewire:components.article-card :article="$article" :key="$article->id" lazy/>
+                    <livewire:components.article-card :article="$article" :key="$article->id"/>
                 </a>
             @endforeach
     </div>
