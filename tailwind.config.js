@@ -9,7 +9,9 @@ export default {
         colors: {
             primary: '#1B1917',
             light: '#FAFAF9',
+            lightGray: '#f5f5f5',
             textColor: '#474540',
+            transparent: 'transparent',
         },
         extend: {
             backdropBlur: {
